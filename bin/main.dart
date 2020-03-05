@@ -1,3 +1,6 @@
-void main(List<String> arguments) {
-  print('Hello world!');
+import 'package:simple_dart_project/hello_dart_vm.dart';
+
+void main() {
+  var greeter = Greeter();
+  greeter.sayHello();
 }
